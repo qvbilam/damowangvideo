@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/music/music",
+    "pages/video/video",
+    "pages/mine/mine",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "./res/index.png",
+        "selectedIconPath": "./res/index_active.png"
+      },
+      {
+        "pagePath": "pages/music/music",
+        "iconPath":"./res/music.png",
+        "selectedIconPath":"./res/music_active.png"
+      },
+      {
+        "pagePath": "pages/video/video",
+        "iconPath": "./res/video.png",
+        "selectedIconPath": "./res/video_active.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "./res/mine.png",
+        "selectedIconPath": "./res/mine_active.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
